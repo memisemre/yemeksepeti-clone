@@ -1,3 +1,5 @@
+import Header from "./components/header/header";
+import "./global.css";
 export const metadata = {
   title:
     "Delivery from restaurants near me - online food order - Yemeksepeti.com",
@@ -7,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

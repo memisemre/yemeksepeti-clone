@@ -1,0 +1,62 @@
+.header {
+    box-shadow: 0 .2rem 1rem rgba(0, 0, 0, .12);
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+
+    a {
+        display: flex;
+        align-items: center;
+    }
+
+    .logoWrapper {
+        padding-left: 24px;
+
+    }
+
+    .userControl {
+        height: 100%;
+        display: flex;
+        font-size: 12px;
+        font-weight: 500;
+
+        .languageSwitcher {
+            padding: 0 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-left: 1px solid #ebebeb;
+            color: #767676;
+        }
+
+        a {
+            padding: 0 16px;
+            height: 100%;
+            border-left: 1px solid #ebebeb;
+        }
+
+        .loginBTN {
+            height: 100%;
+
+            img {
+                margin-right: 8px;
+            }
+
+
+        }
+
+        .cart {
+            a {
+                width: 64px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
